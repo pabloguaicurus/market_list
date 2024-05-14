@@ -1,0 +1,106 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 30 px;
+  background-color: #c0c0c0;
+  color: #333;
+  background-image: url(./img/abundance-healthy-food-choices-supermarket-aisle-generated-by-ai.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #cec5c5;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.add_item {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0,3;
+  margin-right: 10px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.Chek {
+  background-color: #16960a;
+}
+
+.remover {
+  background-color: #d11a1a;
+}
+
+.editar {
+  background-color: #1a6ed1;
+}
+
+.add_item {
+  padding: 1.5rem;
+}
+
+input, select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.busca{
+  margin-bottom: 20 px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.busca div {
+  flex: 1 1 0;
+}
